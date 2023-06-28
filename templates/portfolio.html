@@ -1,0 +1,54 @@
+{% load static %}
+
+<!-- Portfolio Start -->
+<div class="container-fluid pt-5 pb-3" id="portfolio">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+            <h1 class="position-absolute text-uppercase" style="color: #0abab5">My Portfolio</h1>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center mb-2">
+                <ul class="list-inline mb-4" id="portfolio-flters">
+                    <li class="btn btn-sm btn-outline-primary m-1 active" data-filter="*">All</li>
+                    <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Design</li>
+                    <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Development</li>
+                    <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Marketing</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row justify-content-center text-center">
+
+            <div class="card mr-2" style="width: 18rem;">
+                <img src="{% static "main/img/fuse_blog.png" %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Fuse Blog</h5>
+                    <p class="card-text">The social platform Fuse Blog is an inspiring and dynamic online community where users can share their ideas, thoughts and experiences with other members</p>
+                    <a href="https://github.com/robiya07/fuse_blog" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+
+            <div class="card mr-2" style="width: 18rem;">
+                <img src="{% static "main/img/todo2.png" %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">ToDo</h5>
+                    <p class="card-text">The website developed on the Django. Task Management (TODO) with Authentication and CRUD</p>
+                    <a href="https://github.com/robiya07/todo" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card mr-2" style="width: 18rem;">
+                <img src="{% static "main/img/bitly.png" %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Bitly Clone</h5>
+                    <p class="card-text">The Bitly clone is a web application designed to shorten URLs and provide the user with a convenient way to manage links.</p>
+                    <a href="https://github.com/robiya07/bitly" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!-- Portfolio End -->
