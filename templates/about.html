@@ -1,6 +1,7 @@
 {% load static %}
 
 <!-- About Start -->
+{% block content %}
 <div class="container-fluid py-5" id="about">
     <div class="container">
         <div class="position-relative d-flex align-items-center justify-content-center">
@@ -9,13 +10,11 @@
         </div>
         <div class="row align-items-center">
             <div class="col-lg-5 pb-4 pb-lg-0">
-                <img class="img-fluid rounded w-100" src="{% static "main/img/portf2.png" %}" alt="">
+                <img class="img-fluid rounded w-100" src="{% static "main/img/download.png" %}" alt="">
             </div>
             <div class="col-lg-7">
                 <h3 class="mb-4">Full-stack Web Developer</h3>
-                <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est
-                    tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum. Amet dolor stet
-                    lorem diam dolor justo et dolor dolor dolor</p>
+                <p>Hello! My name is Robiya and I am a Python Backend Developer. I am very interested in creating high quality websites and incorporating advanced technologies to solve complex problems</p>
                 <div class="row mb-3">
                     <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Robiya Obidjonova</span></h6></div>
                     <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">23 October 2007</span></h6></div>
@@ -28,10 +27,12 @@
                             class="text-secondary">Uzbekistan, Tashkent</span></h6></div>
                     <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
                 </div>
-                <a href="" class="btn btn-outline-primary mr-4">Hire Me</a>
-                <a href="" class="btn btn-outline-primary">Learn More</a>
+                <a href="mailto: inspiring.sunset07@gmail.com" class="btn btn-outline-primary mr-4">Hire Me</a>
+                <a href="https://github.com/robiya07" class="btn btn-outline-primary">Learn More</a>
             </div>
         </div>
     </div>
 </div>
+{% endblock %}
+
 <!-- About End -->
